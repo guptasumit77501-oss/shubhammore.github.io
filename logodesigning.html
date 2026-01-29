@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Logo Design | Shubham More</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Inter:wght@400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+    }
+
+    /* HEADER */
+    .page-header {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .page-header h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .page-header p {
+      color: #9ca3af;
+      font-size: 16px;
+    }
+
+    /* GALLERY */
+    .gallery {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    /* BACK BUTTON */
+    .back-btn {
+      display: inline-block;
+      margin: 40px auto;
+      padding: 12px 30px;
+      background: #dc2626;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .back-btn:hover {
+      background: #b91c1c;
+      transform: scale(1.05);
+    }
+
+    .btn-center {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <section class="page-header">
+    <h1>Logo Design</h1>
+    <p>Creative and professional logo designs</p>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <img src="logos/logo1.jpg" alt="Logo Design">
+    <img src="logos/logo2.jpg" alt="Logo Design">
+    <img src="logos/logo3.jpg" alt="Logo Design">
+    <img src="logos/logo4.jpg" alt="Logo Design">
+    <img src="logos/logo5.jpg" alt="Logo Design">
+  </section>
+
+  <!-- BACK BUTTON -->
+  <div class="btn-center">
+    <a href="index.html#services" class="back-btn">← Back to Services</a>
+  </div>
+
+</body>
+</html>
